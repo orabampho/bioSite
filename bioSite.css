@@ -99,4 +99,20 @@ h3 {
     .sidenav a {font-size: 18px;}
   }
 
+  .grid-container {
+    display: grid;
+    height: 400px;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: #D3D92B(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+  }
+
 
