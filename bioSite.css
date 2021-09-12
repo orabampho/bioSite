@@ -59,23 +59,25 @@ h3 {
     left: 0;
     background-color: #2C5916;
     overflow-x: hidden;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .sidenav img {
-    display: block;
-    width: 40px;
-    height: 40px;
-    margin: auto;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    margin: 25px 25px;
+    border-style: groove;
 }
 
 /* The navigating menu links */
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: 20px;
     color: #F2E085;
     display: block;
+    text-align: left;
 }
 
 /* When you mouse over the navigating link, change their color */
