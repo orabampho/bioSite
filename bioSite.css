@@ -8,6 +8,8 @@ p{
     font-size: 20px;
     font-weight: 400;
     line-height: 1.4em;
+    text-align: left;
+    margin-left: 120px;
 }
 
 h1, h2 {
