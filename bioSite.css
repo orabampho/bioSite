@@ -41,6 +41,14 @@ h3 {
     padding-top: 15px;
 }
 
+/* Header */
+.header {
+    padding: 60px;
+    text-align: center;
+    color: #2C5916;
+    border-bottom: black;
+}
+
 /* The sidebar menu */
 .sidenav {
     height: 100%;
@@ -52,6 +60,13 @@ h3 {
     background-color: #2C5916;
     overflow-x: hidden;
     padding-top: 50px;
+}
+
+.sidenav img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: auto;
 }
 
 /* The navigating menu links */
