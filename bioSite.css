@@ -19,7 +19,7 @@ h1 {
     text-transform: uppercase;
     font-size: 48px;
     word-spacing: .5em;
-    margin: 0;
+    margin-left: 120px;
     text-align: center;
 }
 
@@ -27,7 +27,7 @@ h2 {
     font-weight: 500;
     font-size: 32px;
     word-spacing: .2em;
-    margin: 0;
+    margin-left: 120px;
     text-align: left;
     padding-top: 15px;
 }
@@ -70,7 +70,7 @@ h3 {
 
 /* Style page content */
 .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 120px; /* Same as the width of the sidebar */
     padding: 0px 10px;
   }
   
