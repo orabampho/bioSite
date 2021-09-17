@@ -67,7 +67,7 @@ h3 {
 }
 
 .header{
-    background-image:url('images/beesunflower.jpeg');
+    background-image:url('images/beesunflower.jpg');
     grid-area: header;
     background-size: cover;
 }
