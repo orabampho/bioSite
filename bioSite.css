@@ -67,19 +67,19 @@ h3 {
 }
 
 .header{
-    background-color: cornflowerblue;
+    background-color: lightgrey;
     grid-area: header;
 }
 .sidebar{
-    background-color: pink;
+    background-color: #68A629;
     grid-area: sidebar;
 }
 .content{
-    background-color: greenyellow;
+    background-color: #F2ECCE;
     grid-area: content;
 }
 .footer{
-    background-color: gray;
+    background-color: #2C5916;
     grid-area: footer;
 }
 
