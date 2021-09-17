@@ -42,64 +42,8 @@ h3 {
     padding-top: 15px;
 }
 
-/* Header */
-.header {
-    padding: 0;
-    text-align: left;
-    color: #2C5916;
-    border-style: groove;
-    margin-left: 120px;
-}
 
-/* The sidebar menu */
-.sidenav {
-    height: 100%;
-    width: 120px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #2C5916;
-    overflow-x: hidden;
-    padding-top: 25px;
-}
 
-.sidenav img {
-    display: inline-block;
-    width: 64px;
-    height: 64px;
-    margin: 25px 25px;
-    border-style: groove;
-}
-
-/* The navigating menu links */
-.sidenav a {
-    padding: 8px 8px 8px 8px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #F2E085;
-    display: block;
-    text-align: left;
-}
-
-/* When you mouse over the navigating link, change their color */
-.sidenav a:hover {
-    color: #68A629;
-}
-
-/* Style page content */
-.main {
-    margin-left: 120px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-
-  
 
 
 
