@@ -70,6 +70,9 @@ h3 {
     background-image:url('images/beesunflower.jpg');
     grid-area: header;
     background-size: cover;
+    text-align: right;
+    padding-right: 15px;
+    color: #2C5916;
 }
 .sidebar{
     background-color: #68A629;
