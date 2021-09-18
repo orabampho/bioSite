@@ -20,10 +20,9 @@ h1, h2,h3 {
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 48px;
-    word-spacing: .5em;
-    margin-left: 120px;
+    word-spacing: .2em;
 }
 
 h2 {
