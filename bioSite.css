@@ -77,14 +77,16 @@ h3 {
     background-color: #F2ECCE;
     grid-area: sidebar;
 
+   
 }
 
 .sidebar .nav{
     list-style: none;
+    
  
 }
 .sidebar .nav a{
-    display: block;
+    display: grid;
     text-decoration: none;
     border: 2px solid #68A629;
     border-radius: 25em;
@@ -95,6 +97,7 @@ h3 {
     width: auto;
     color: #F2e085;
     background-color: #2c5916;
+    align-content: center;
 }
 .sidebar .nav a:hover{
     background-color: #68A629;
