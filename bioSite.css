@@ -72,9 +72,12 @@ html, body {
 }
 
 #footer {
+    font-size: 10px;
+    text-align: center;
     background-color:#2C5916;
     margin: 10px;
     height: 60px;
     clear: both;
-    border-radius: 5px;
+    border-radius: 5px; 
+    color: #F2ECCE;
 }
