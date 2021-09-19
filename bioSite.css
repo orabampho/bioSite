@@ -30,7 +30,7 @@ html, body {
 
 #navbar ul li a {
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Noto Sans JP', sans-serif;
     padding: .2em 2em;
     color: #2C5910;
     background-color: #D3D92B;
@@ -39,23 +39,11 @@ html, body {
 
 #navbar ul li a:hover {
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Noto Sans JP', sans-serif;
     padding: .2em 2em;
     color: #D3D92B;
     background-color: #68a629;
     border-radius: 50em;
-}
-
-
-.main {
-    background-color: whitesmoke;
-    margin-left: 10px;
-    margin-right: 320px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 100%;
 }
 
 .sidebar {
@@ -68,15 +56,25 @@ html, body {
     border-radius: 5px;
     padding: 20px;
     font-size: 95%;
-    float: right;
-    width: 260px;
+    float: left;
+    width: 180px;
 }
 
+.main {
+    background-color: whitesmoke;
+    margin-left: 240px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 100%;
+}
 
-
-
-
-
-
-
-
+#footer {
+    background-color:#2C5916;
+    margin: 10px;
+    height: 60px;
+    clear: both;
+    border-radius: 5px;
+}
