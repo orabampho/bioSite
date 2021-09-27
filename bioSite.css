@@ -8,7 +8,7 @@ html, body {
 
 #header {
     margin: 5px;
-    height: 200px;
+    height: 175px;
     border-radius: 5px;
     background-image:url('images/beesunflower.jpg');
     background-size: cover;
@@ -36,19 +36,21 @@ html, body {
 #navbar ul li a {
     text-decoration: none;
     font-family: 'Noto Sans JP', sans-serif;
-    padding: .2em 2em;
+    padding: .2em 3em;
     color: #2C5910;
     background-color: #D3D92B;
     border-radius: 50em;
+    margin: 0 10px;
 }
 
 #navbar ul li a:hover {
     text-decoration: none;
     font-family: 'Noto Sans JP', sans-serif;
-    padding: .2em 2em;
+    padding: .2em 3em;
     color: #D3D92B;
     background-color: #68a629;
     border-radius: 50em;
+    margin: 0 10px;
 }
 
 .imagesidebar {
@@ -134,7 +136,8 @@ h2 {
 
 .gallery img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    
 }
 
 .desc{
