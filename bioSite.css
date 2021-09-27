@@ -8,14 +8,15 @@ html, body {
 
 #header {
     margin: 5px;
-    height: auto;
+    height: 175px;
     border-radius: 5px;
     background-image:url('images/beesunflower.jpg');
     background-size: cover;
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 20px;
     padding-right: 20px;
+    font-size: 150%;
+    
 }
 
 #navbar ul {
