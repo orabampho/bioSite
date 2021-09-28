@@ -136,8 +136,9 @@ html, body {
     height: 60px;
     clear: both;
     color: #F2ECCE;
-    bottom: 0;
     width: 100%;
+    position: relative;
+   
 }
 
 p {
