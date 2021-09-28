@@ -68,7 +68,9 @@ html, body {
 
 #logo {
     width: 75%;
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
     
 }
