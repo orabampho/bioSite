@@ -53,10 +53,10 @@ html, body {
     margin: 0 10px;
 }
 
-.imagesidebar {
+#imageportrait {
     background-color: whitesmoke;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -64,26 +64,31 @@ html, body {
     font-size: 95%;
     float: left;
     width: 180px;
+}
+
+#logo {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
 }
 
 .sidebar {
     background-color: whitesmoke;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     border-radius: 5px;
-    padding: 20px;
     font-size: 95%;
     float: left;
     width: 180px;
     clear: left;
+    padding: 20px;
 }
 
 .main {
     background-color: whitesmoke;
-    margin-left: 240px;
-    margin-right: 10px;
+    margin-left: 235px;
+    margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -96,11 +101,12 @@ html, body {
     font-size: 10px;
     text-align: center;
     background-color:#2C5916;
-    margin: 10px;
     height: 60px;
     clear: both;
-    border-radius: 5px; 
     color: #F2ECCE;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 p{
