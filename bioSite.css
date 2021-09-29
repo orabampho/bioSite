@@ -9,12 +9,14 @@ html, body {
     margin: 5px;
     height: 175px;
     border-radius: 5px;
-    background-image:url('images/beesunflower.jpg');
+    background-image:url('images/zucchini.jpeg');
     background-size: cover;
-    text-align: right;
+    text-align: center;
     padding-top: 20px;
     padding-right: 20px;
     font-size: 150%;
+    opacity: .8;
+    color: #f2e085;
     
 }
 
@@ -53,16 +55,14 @@ html, body {
 }
 
 #imageportrait {
-    background-color: #F2ECCE;
-    margin-left: 5px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+
+    margin-left: 10px;
     border-radius: 5px;
-    padding: 20px;
+    border: solid black 2px;
+    padding: 15px;
     font-size: 95%;
     float: left;
-    width: 180px;
+    width: 275px;
 }
 
 #logo {
@@ -124,8 +124,6 @@ html, body {
     background: #cb2027;
     color: white;
   }
-  
-
 
 .sidebar {
     
@@ -135,17 +133,17 @@ html, body {
     border-radius: 5px;
     font-size: 85%;
     float: left;
-    width: 180px;
+    width: 275px;
     clear: left;
     padding: 20px;
     text-align: center;
-    background-color: #F2ECCE;
+   
    
 }
 
 .main {
     background-color: #F2ECCE;
-    margin-left: 235px;
+    margin-left: 300px;
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -174,6 +172,8 @@ p {
 
 .para-a {
     text-indent: 2em;
+    font-size: large;
+    text-align: justify;
 }
 
 h1, h2,h3 {
@@ -183,30 +183,33 @@ h1, h2,h3 {
 h1 {
     font-weight: 500;
     font-size: 48px;
-    word-spacing: .5em;
+    word-spacing: .2em;
 }
 
 h2 {
     font-weight: 400;
     font-size: 32px;
-    word-spacing: .2em;
-    margin-top: 0;
+    word-spacing: .1em;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h3 {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 24px;
     word-spacing: .2em;
+    text-align: center;
+    margin-top: auto;
 }
 
 .gallery {
-    margin:  5px;
     border: 1px solid black;
     float: left;
-    width: 225px;
+    width: 200px;
     height: 300px;
     border-radius: 5px;
+    margin: 20px 10px 15px 10px;
 }
 
 .gallery img {
