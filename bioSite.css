@@ -69,6 +69,7 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto; 
+    margin-top: 0;
 }
 
 #sidebar-link ul {
@@ -93,11 +94,11 @@ html, body {
 .fa {
     font-size: 100px;
     width: 10px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     border-radius: 50%;
     padding: 1em 1em;
-    margin: 0 1px;
+    margin: 2px 2px;
   }
   
   .fa:hover {
@@ -125,10 +126,7 @@ html, body {
   }
 
 .sidebar {
-    
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
+   
     border-radius: 5px;
     font-size: 85%;
     float: left;
@@ -154,13 +152,13 @@ html, body {
 
 #footer {
     font-size: 10px;
-    text-align: center;
     background-color:#2C5916;
     height: 60px;
     clear: both;
     color: #F2ECCE;
     width: 100%;
     position: relative;
+    text-align: center;
    
 }
 
