@@ -75,7 +75,7 @@ html, body {
 
 #sidebar-link ul {
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 10px;
    
 }   
 
@@ -93,13 +93,13 @@ html, body {
 }
 
 .fa {
-    padding: 20px;
-    font-size: 50px;
+    font-size: 100px;
     width: 10px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
     border-radius: 50%;
+    padding: 1em 1em;
+    margin: 0 1px;
   }
   
   .fa:hover {
@@ -120,6 +120,12 @@ html, body {
     background: #bb0000;
     color: white;
   }
+
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
 
 
 .sidebar {
