@@ -1,5 +1,5 @@
 html, body {
-    background-color: #f2e085;
+    background-color: #F2ECCE;
     margin: 0px;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 14px;
@@ -139,7 +139,7 @@ html, body {
 }
 
 .main {
-    background-color: #F2ECCE;
+    background-color: #F7F9F9;
     margin-left: 300px;
     margin-right: 5px;
     margin-top: 5px;
